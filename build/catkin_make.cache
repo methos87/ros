@@ -1,0 +1,2 @@
+tutorialPKG
+-DCATKIN_DEVEL_PREFIX=/home/methos/Documents/ros/devel -DCMAKE_INSTALL_PREFIX=/home/methos/Documents/ros/install -G Unix Makefiles

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tutorialPKG" type="addition_service_node" name="service_server_node" output="screen" />
+    <node pkg="tutorialPKG" type="addition_client_node" name="service_client_node" output="screen" />
+</launch>

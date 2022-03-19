@@ -1,0 +1,8 @@
+prefix=/home/methos/Documents/ros/devel
+
+Name: tutorialpkg
+Description: Description of tutorialpkg
+Version: 0.0.0
+Cflags: -I/home/methos/Documents/ros/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

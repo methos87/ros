@@ -1,0 +1,82 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"catkin_run_tests_target",
+			"roslaunch_add_file_check"
+		],
+		"files" : 
+		[
+			"/opt/ros/noetic/share/catkin/cmake/test/tests.cmake",
+			"/opt/ros/noetic/share/roslaunch/cmake/roslaunch-extras.cmake",
+			"tutorialPKG/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "clean_test_results_tutorialPKG::@0ea5ec65743f027a3d11",
+	"name" : "clean_test_results_tutorialPKG",
+	"paths" : 
+	{
+		"build" : "tutorialPKG",
+		"source" : "tutorialPKG"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/methos/Documents/ros/build/tutorialPKG/CMakeFiles/clean_test_results_tutorialPKG",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/methos/Documents/ros/build/tutorialPKG/CMakeFiles/clean_test_results_tutorialPKG.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
